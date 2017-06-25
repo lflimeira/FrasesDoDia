@@ -30,7 +30,6 @@ const App = () => {
   
   return(
     <View style={ principal }>
-      
       <Image source={ require('./imgs/logo.png') } />
       <TouchableOpacity style={ botao }>
         <Text style={ textoBotao }>Nova frase</Text>
@@ -39,4 +38,4 @@ const App = () => {
   );
 };
 
-AppRegistry.registerComponent('daysPhrases', () => App);
+AppRegistry.registerComponent('FrasesDoDia', () => App);
